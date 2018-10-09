@@ -1,4 +1,6 @@
-package singleton;
+package designpatterns.singleton;
+
+import designpatterns.singleton.Singleton;
 
 /**
  * @Auther: Frank
