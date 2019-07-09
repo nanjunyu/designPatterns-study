@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <!--<className>designpatterns.factoryMethod.demo.FileLoggerFactory2</className>-->
-    <className>designpatterns.factoryMethod.DataBaseLoggerFactory</className>
-</config>
