@@ -57,4 +57,14 @@ public class WeeklyLog implements Cloneable{
             return null;
         }
     }
+
+    @Override
+    public String toString() {
+        return "WeeklyLog{" +
+                "attachment=" + attachment +
+                ", name='" + name + '\'' +
+                ", date=" + date +
+                ", content='" + content + '\'' +
+                '}';
+    }
 }

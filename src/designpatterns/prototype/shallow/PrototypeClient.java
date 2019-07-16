@@ -10,8 +10,12 @@ public class PrototypeClient {
         Attachment attachment=new Attachment();
         WeeklyLog weeklyLog,newLog;
         weeklyLog=new WeeklyLog();
+        weeklyLog.setName("原");
         weeklyLog.setAttachment(attachment);
         newLog=weeklyLog.clone();
+
+        System.out.println(weeklyLog.toString());
+        System.out.println(newLog.toString());
         //比较周报
         System.out.println("周报是否相同:"+(weeklyLog==newLog));
         //比较附件

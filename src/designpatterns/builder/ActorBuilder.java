@@ -2,7 +2,7 @@ package designpatterns.builder;
 
 /**
  * @Author: Frank
- * @Description: 游戏角色建造者 ，充当抽象建造者
+ * @Description: ActorBuilder 游戏角色建造者 ，充当抽象建造者
  * @Date: Create in  2018/10/22 8:16 PM
  */
 public abstract class ActorBuilder {

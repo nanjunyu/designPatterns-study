@@ -7,12 +7,9 @@ package designpatterns.builder;
  */
 public class BuilderClient {
     public static void main(String[] args) {
-        ActorBuilder actorBuilder;
-        actorBuilder = (ActorBuilder) XMLUtil.getBean();
+        ActorBuilder actorBuilder=new NanJunYuBuilder();
         ActorController actorController = new ActorController();
-        Actor actor;
-        actor = actorController.construct(actorBuilder);
-
+        Actor actor=actorController.construct(actorBuilder);
         String type = actor.getType();
         System.out.println(type + "的外观：");
         System.out.println("性别：" + actor.getSex());
